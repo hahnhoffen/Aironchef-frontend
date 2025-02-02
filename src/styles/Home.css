@@ -19,7 +19,7 @@
     position: relative;
     z-index: 1; /* Places content above the video */
     text-align: center;
-    color: white; /* Adjust text color for visibility */
+    color: #ff5722; /* Adjust text color for visibility */
     padding: 2rem;
   }
   

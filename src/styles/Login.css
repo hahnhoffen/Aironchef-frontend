@@ -1,0 +1,79 @@
+/* Keep the page layout consistent */
+.login-page {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-page h1 {
+    color: #ffcc80;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .login-page form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(255, 87, 34, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ffcc80;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%; /* Ensure uniform width */
+    max-width: 350px; /* Slightly wider */
+    padding: 0.8rem; /* Increase padding for better look */
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  .input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #ff5722;
+    box-shadow: 0 0 5px rgba(255, 87, 34, 0.5);
+  }
+  
+  .login-button, .toggle-button, .back-button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 1rem;
+  }
+  
+  .login-button:hover, .toggle-button:hover, .back-button:hover {
+    background-color: #e64a19;
+  }
+  

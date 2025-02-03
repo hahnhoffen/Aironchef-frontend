@@ -20,6 +20,9 @@ function Header() {
               <Link to="/users-and-recipes">Users & Recipes</Link>
             </li>
             <li>
+              <Link to="/login">Login</Link>
+            </li>
+            <li>
               <Link to="/about">About</Link>
             </li>
           </ul>

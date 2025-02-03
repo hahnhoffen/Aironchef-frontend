@@ -8,7 +8,7 @@
   }
   
   .header-block {
-    flex: 1; /* Distribute blocks evenly */
+    flex: 1;
     display: flex;
     align-items: center;
   }
@@ -26,7 +26,7 @@
   }
   
   .logo {
-    height: 60px; /* Adjust logo size */
+    height: 60px;
     width: auto;
     max-height: 60px;
     margin-right: 0.5rem;

@@ -26,7 +26,6 @@ function Header() {
         </nav>
       </div>
       <div className="header-block right-container">
-        {/* Add future content here if needed */}
       </div>
     </header>
   );
